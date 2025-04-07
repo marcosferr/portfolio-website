@@ -1,0 +1,253 @@
+{
+  "profile": {
+    "name": "Marcos Ferreira",
+    "title": "Lead Full Stack Developer",
+    "email": "ferreiramarcosadrian@gmail.com",
+    "phone": "(595) 985 609 650",
+    "location": "Asunción, Paraguay",
+    "status": "Available",
+    "avatar": "/images/profile.png",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/marcosferrei",
+        "icon": "Github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/marcos-adrian-ferreira/",
+        "icon": "Linkedin"
+      }
+    ]
+  },
+  "navigation": [
+    {
+      "path": "/",
+      "icon": "User",
+      "label": "ABOUT"
+    },
+    {
+      "path": "/resume",
+      "icon": "FileText",
+      "label": "RESUME"
+    },
+    {
+      "path": "/portfolio",
+      "icon": "Briefcase",
+      "label": "PORTFOLIO"
+    },
+    {
+      "path": "/blog",
+      "icon": "BookOpen",
+      "label": "BLOG"
+    },
+    {
+      "path": "/contact",
+      "icon": "Mail",
+      "label": "CONTACT"
+    }
+  ],
+  "about": {
+    "bio": [
+      "Results-driven Lead Full Stack Developer with proven expertise in team leadership, ETL architecture, and distributed computing solutions.",
+      "Demonstrated success in managing development teams, implementing scalable solutions, and driving technical innovation. Strong background in Angular, Django, C# .NET, and PySpark with a focus on cloud-native architectures and DevOps practices.",
+      "Track record of delivering high-impact projects while mentoring team members and fostering a culture of technical excellence."
+    ],
+    "whatImDoing": [
+      {
+        "title": "Team Leadership",
+        "description": "Managing development teams, delegating tasks, conducting code reviews, and ensuring high-quality delivery",
+        "icon": "Users"
+      },
+      {
+        "title": "Full Stack Development",
+        "description": "Building scalable applications using Angular, Django, and cloud-native architectures",
+        "icon": "Code"
+      }
+    ]
+  },
+  "resume": {
+    "experience": [
+      {
+        "title": "Lead Full Stack Developer",
+        "company": "Nexter S.A.",
+        "period": "Oct 2024 - Present",
+        "description": "Managed a team of two developers, delegating tasks, conducting code reviews, and ensuring high-quality delivery. Designed and developed an Extract and Load service from scratch, integrated with existing platform using Apache Spark and PySpark. Configured efficient CI/CD pipelines in Bitbucket to ensure continuous deployments. Collaborated with Quality Management team by integrating automated testing into development workflow. Actively participated in client meetings to gather requirements and ensure solution alignment with client expectations."
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Nexter S.A.",
+        "period": "Apr 2024 - Sep 2024",
+        "description": "Led web interface development using Angular, integrated with Django-based backend system. Designed and configured automated ETL pipelines using Docker and AWS CloudFormation templates. Significantly improved end-user experience by optimizing frontend flows and creating more intuitive interfaces. Developed and implemented key APIs for system integration and expanded backend functionalities."
+      },
+      {
+        "title": "Freelance Developer",
+        "company": "Recruitment Platform Qualia RRHH",
+        "period": "Oct 2024 - Present",
+        "description": "Freelance work on recruitment platform development."
+      },
+      {
+        "title": "Freelance Developer",
+        "company": "Payroll System",
+        "period": "May 2023 - Jun 2023",
+        "description": "Developed payroll system as a freelance project used in a local company to centralize information and streamline productivity."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Computer Engineering",
+        "institution": "Universidad Nacional de Itapúa",
+        "period": "2020 - 2024",
+        "description": "Encarnación, Paraguay"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "issuer": "Amazon Web Services",
+        "year": "2025"
+      },
+      {
+        "name": "Engineering Management",
+        "issuer": "Platzi",
+        "year": "2024"
+      }
+    ],
+    "skills": [
+      {
+        "category": "Leadership & Management",
+        "items": [
+          {
+            "name": "Team Leadership",
+            "level": 95
+          },
+          {
+            "name": "Agile Methodologies",
+            "level": 90
+          },
+          {
+            "name": "Technical Mentoring",
+            "level": 85
+          }
+        ]
+      },
+      {
+        "category": "Languages & Frameworks",
+        "items": [
+          {
+            "name": "Angular",
+            "level": 90
+          },
+          {
+            "name": "Python/Django",
+            "level": 85
+          },
+          {
+            "name": "C# .NET",
+            "level": 80
+          }
+        ]
+      },
+      {
+        "category": "Tools & Technologies",
+        "items": [
+          {
+            "name": "AWS",
+            "level": 85
+          },
+          {
+            "name": "ETL Architecture",
+            "level": 90
+          },
+          {
+            "name": "PySpark",
+            "level": 80
+          }
+        ]
+      }
+    ]
+  },
+  "portfolio": [
+    {
+      "title": "ETL Service Development",
+      "description": "Designed and developed an Extract and Load service from scratch using Apache Spark and PySpark",
+      "image": "/placeholder.svg?height=200&width=400",
+      "tags": ["PySpark", "Apache Spark", "ETL"],
+      "links": {
+        "github": "https://github.com/marcosferrei/etl-service",
+        "live": "https://example.com/etl-service"
+      }
+    },
+    {
+      "title": "Recruitment Platform",
+      "description": "Freelance development of a recruitment platform for Qualia RRHH",
+      "image": "/placeholder.svg?height=200&width=400",
+      "tags": ["Angular", "Django", "AWS"],
+      "links": {
+        "github": "https://github.com/marcosferrei/recruitment-platform",
+        "live": "https://example.com/recruitment-platform"
+      }
+    },
+    {
+      "title": "Payroll System",
+      "description": "Developed a payroll system to centralize information and streamline productivity",
+      "image": "/placeholder.svg?height=200&width=400",
+      "tags": ["C# .NET", "SQL Server", "React"],
+      "links": {
+        "github": "https://github.com/marcosferrei/payroll-system",
+        "live": "https://example.com/payroll-system"
+      }
+    },
+    {
+      "title": "CI/CD Pipeline Configuration",
+      "description": "Configured efficient CI/CD pipelines in Bitbucket for continuous deployments",
+      "image": "/placeholder.svg?height=200&width=400",
+      "tags": ["Bitbucket", "CI/CD", "Docker"],
+      "links": {
+        "github": "https://github.com/marcosferrei/cicd-pipelines",
+        "live": "https://example.com/cicd-pipelines"
+      }
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Building Scalable ETL Pipelines with Apache Spark",
+      "excerpt": "Learn how to design and implement scalable ETL pipelines using Apache Spark and PySpark for large-scale data processing...",
+      "date": "15 Oct",
+      "image": "/placeholder.svg?height=200&width=400",
+      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+    },
+    {
+      "id": 2,
+      "title": "Team Leadership in Software Development",
+      "excerpt": "Effective strategies for leading development teams, conducting code reviews, and ensuring high-quality delivery.",
+      "date": "28 Sep",
+      "image": "/placeholder.svg?height=200&width=400",
+      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+    },
+    {
+      "id": 3,
+      "title": "Angular and Django Integration Best Practices",
+      "excerpt": "A comprehensive guide to integrating Angular frontend with Django backend for robust full-stack applications.",
+      "date": "10 Sep",
+      "image": "/placeholder.svg?height=200&width=400",
+      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+    },
+    {
+      "id": 4,
+      "title": "Cloud-Native Architecture for Modern Applications",
+      "excerpt": "Exploring cloud-native design patterns and best practices for building scalable and resilient applications.",
+      "date": "22 Aug",
+      "image": "/placeholder.svg?height=200&width=400",
+      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+    }
+  ],
+  "contact": {
+    "intro": "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your vision.",
+    "email": "ferreiramarcosadrian@gmail.com",
+    "phone": "(595) 985 609 650",
+    "location": "Asunción, Paraguay"
+  }
+}
+
