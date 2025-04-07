@@ -138,8 +138,11 @@ export default function ClientLayout({
                 <div>
                   <p className="text-xs text-gray-400">CV</p>
                   <Link
-                    href="#"
+                    href={profile.cv}
                     className="text-sm flex items-center gap-1 hover:text-teal-400 transition-colors"
+                    download="Marcos_Ferreira_CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Download <Download size={14} />
                   </Link>

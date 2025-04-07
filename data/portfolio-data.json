@@ -4,13 +4,14 @@
     "title": "Lead Full Stack Developer",
     "email": "ferreiramarcosadrian@gmail.com",
     "phone": "(595) 985 609 650",
-    "location": "Asunción, Paraguay",
+    "location": "Encarnación, Paraguay",
     "status": "Available",
-    "avatar": "/images/profile.png",
+    "avatar": "/user-profile.jpeg",
+    "cv": "/CV.pdf",
     "socialLinks": [
       {
         "name": "GitHub",
-        "url": "https://github.com/marcosferrei",
+        "url": "https://github.com/marcosferr",
         "icon": "Github"
       },
       {
@@ -216,7 +217,10 @@
       "excerpt": "Learn how to design and implement scalable ETL pipelines using Apache Spark and PySpark for large-scale data processing...",
       "date": "15 Oct",
       "image": "/placeholder.svg?height=200&width=400",
-      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      "logos": [
+        "/placeholder.svg?height=50&width=50",
+        "/placeholder.svg?height=50&width=50"
+      ]
     },
     {
       "id": 2,
@@ -224,7 +228,10 @@
       "excerpt": "Effective strategies for leading development teams, conducting code reviews, and ensuring high-quality delivery.",
       "date": "28 Sep",
       "image": "/placeholder.svg?height=200&width=400",
-      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      "logos": [
+        "/placeholder.svg?height=50&width=50",
+        "/placeholder.svg?height=50&width=50"
+      ]
     },
     {
       "id": 3,
@@ -232,7 +239,10 @@
       "excerpt": "A comprehensive guide to integrating Angular frontend with Django backend for robust full-stack applications.",
       "date": "10 Sep",
       "image": "/placeholder.svg?height=200&width=400",
-      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      "logos": [
+        "/placeholder.svg?height=50&width=50",
+        "/placeholder.svg?height=50&width=50"
+      ]
     },
     {
       "id": 4,
@@ -240,7 +250,10 @@
       "excerpt": "Exploring cloud-native design patterns and best practices for building scalable and resilient applications.",
       "date": "22 Aug",
       "image": "/placeholder.svg?height=200&width=400",
-      "logos": ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      "logos": [
+        "/placeholder.svg?height=50&width=50",
+        "/placeholder.svg?height=50&width=50"
+      ]
     }
   ],
   "contact": {
@@ -250,4 +263,3 @@
     "location": "Asunción, Paraguay"
   }
 }
-
