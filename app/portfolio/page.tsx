@@ -19,9 +19,9 @@ type Project = {
   image: string;
   category: string;
   tags: string[];
-  links: {
-    github: string;
-    live: string;
+  links?: {
+    github?: string;
+    live?: string;
   };
 };
 
@@ -90,22 +90,26 @@ export default function Portfolio() {
 
               {/* Links as chips */}
               <div className="flex gap-2">
-                <Link
-                  href={project.links.github}
-                  className="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full flex items-center gap-1 hover:bg-blue-500/30 transition-colors"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <Github size={12} />
-                  GitHub
-                </Link>
-                <Link
-                  href={project.links.live}
-                  className="text-xs bg-green-500/20 text-green-400 px-3 py-1 rounded-full flex items-center gap-1 hover:bg-green-500/30 transition-colors"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <ExternalLink size={12} />
-                  Website
-                </Link>
+                {project.links?.github && (
+                  <Link
+                    href={project.links.github}
+                    className="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full flex items-center gap-1 hover:bg-blue-500/30 transition-colors"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <Github size={12} />
+                    GitHub
+                  </Link>
+                )}
+                {project.links?.live && (
+                  <Link
+                    href={project.links.live}
+                    className="text-xs bg-green-500/20 text-green-400 px-3 py-1 rounded-full flex items-center gap-1 hover:bg-green-500/30 transition-colors"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <ExternalLink size={12} />
+                    Website
+                  </Link>
+                )}
               </div>
             </div>
           </div>

@@ -59,6 +59,16 @@
         "title": "Full Stack Development",
         "description": "Building scalable applications using Angular, Django, and cloud-native architectures",
         "icon": "Code"
+      },
+      {
+        "title": "DevOps with Docker & Kubernetes",
+        "description": "Implementing containerization and orchestration solutions for scalable, resilient application deployments",
+        "icon": "Server"
+      },
+      {
+        "title": "AWS Cloud Solutions",
+        "description": "Designing and implementing cloud infrastructure using AWS services for scalable and reliable applications",
+        "icon": "Cloud"
       }
     ]
   },
@@ -165,48 +175,72 @@
   },
   "portfolio": [
     {
+      "title": "Baches Observatorio De Datos",
+      "description": "Una plataforma donde cualquiera puede reportar un bache. Donde los reportes se convierten en datos abiertos. Y donde una organización puede gestionarlos y mostrar públicamente su progreso.",
+      "image": "/baches.png",
+      "category": "Project",
+      "tags": ["Open Data", "Civic Tech", "Web Platform"],
+      "links": {
+        "github": "https://github.com/marcosferr/baches-app",
+        "live": "https://baches.observatoriodatositapua.org"
+      }
+    },
+    {
+      "title": "CreceDigital",
+      "description": "SaaS Platform for small and medium businesses integrated with WhatsApp and Marketing Campaign using RFM analysis",
+      "image": "/crece-digital.png",
+      "category": "SaaS",
+      "tags": ["WhatsApp Integration", "Marketing", "RFM Analysis"]
+    },
+    {
+      "title": "Finance Tracker",
+      "description": "Finance RAG, with Receipt and Transactions OCR for quick upload to database",
+      "image": "/finance-tracker.png",
+      "category": "FinTech",
+      "tags": ["OCR", "Finance", "RAG"],
+      "links": {
+        "github": "https://github.com/marcosferr/finance-tracker",
+        "live": "https://finanzas.tereredev.com/"
+      }
+    },
+    {
+      "title": "And More Projects",
+      "description": "Check out my GitHub profile for more projects and contributions",
+      "image": "/github-screenshot.png",
+      "category": "GitHub",
+      "tags": ["Open Source", "Contributions", "Projects"],
+      "links": {
+        "github": "https://github.com/marcosferr",
+        "live": "https://github.com/marcosferr"
+      }
+    },
+    {
       "title": "ETL Service Development",
       "description": "Designed and developed an Extract and Load service from scratch using Apache Spark and PySpark",
       "image": "/placeholder.svg?height=200&width=400",
       "category": "Project",
-      "tags": ["PySpark", "Apache Spark", "ETL"],
-      "links": {
-        "github": "https://github.com/marcosferrei/etl-service",
-        "live": "https://example.com/etl-service"
-      }
+      "tags": ["PySpark", "Apache Spark", "ETL", "AWS EMR"]
     },
     {
       "title": "Recruitment Platform",
       "description": "Freelance development of a recruitment platform for Qualia RRHH",
       "image": "/placeholder.svg?height=200&width=400",
       "category": "Project",
-      "tags": ["Angular", "Django", "AWS"],
-      "links": {
-        "github": "https://github.com/marcosferrei/recruitment-platform",
-        "live": "https://example.com/recruitment-platform"
-      }
+      "tags": ["NextJS", "Django", "AWS"]
     },
     {
       "title": "Payroll System",
-      "description": "Developed a payroll system to centralize information and streamline productivity",
+      "description": "Developed a payroll system to centralize information and streamline productivity in a local company",
       "image": "/placeholder.svg?height=200&width=400",
       "category": "Project",
-      "tags": ["C# .NET", "SQL Server", "React"],
-      "links": {
-        "github": "https://github.com/marcosferrei/payroll-system",
-        "live": "https://example.com/payroll-system"
-      }
+      "tags": ["Flask", "MySQL"]
     },
     {
       "title": "CI/CD Pipeline Configuration",
       "description": "Configured efficient CI/CD pipelines in Bitbucket for continuous deployments",
       "image": "/placeholder.svg?height=200&width=400",
       "category": "DevOps",
-      "tags": ["Bitbucket", "CI/CD", "Docker"],
-      "links": {
-        "github": "https://github.com/marcosferrei/cicd-pipelines",
-        "live": "https://example.com/cicd-pipelines"
-      }
+      "tags": ["Bitbucket", "CI/CD", "Docker"]
     }
   ],
   "blog": [
