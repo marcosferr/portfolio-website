@@ -38,11 +38,6 @@
       "label": "PORTFOLIO"
     },
     {
-      "path": "/blog",
-      "icon": "BookOpen",
-      "label": "BLOG"
-    },
-    {
       "path": "/contact",
       "icon": "Mail",
       "label": "CONTACT"
@@ -173,6 +168,7 @@
       "title": "ETL Service Development",
       "description": "Designed and developed an Extract and Load service from scratch using Apache Spark and PySpark",
       "image": "/placeholder.svg?height=200&width=400",
+      "category": "Project",
       "tags": ["PySpark", "Apache Spark", "ETL"],
       "links": {
         "github": "https://github.com/marcosferrei/etl-service",
@@ -183,6 +179,7 @@
       "title": "Recruitment Platform",
       "description": "Freelance development of a recruitment platform for Qualia RRHH",
       "image": "/placeholder.svg?height=200&width=400",
+      "category": "Project",
       "tags": ["Angular", "Django", "AWS"],
       "links": {
         "github": "https://github.com/marcosferrei/recruitment-platform",
@@ -193,6 +190,7 @@
       "title": "Payroll System",
       "description": "Developed a payroll system to centralize information and streamline productivity",
       "image": "/placeholder.svg?height=200&width=400",
+      "category": "Project",
       "tags": ["C# .NET", "SQL Server", "React"],
       "links": {
         "github": "https://github.com/marcosferrei/payroll-system",
@@ -203,6 +201,7 @@
       "title": "CI/CD Pipeline Configuration",
       "description": "Configured efficient CI/CD pipelines in Bitbucket for continuous deployments",
       "image": "/placeholder.svg?height=200&width=400",
+      "category": "DevOps",
       "tags": ["Bitbucket", "CI/CD", "Docker"],
       "links": {
         "github": "https://github.com/marcosferrei/cicd-pipelines",
